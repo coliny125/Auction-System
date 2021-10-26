@@ -1,0 +1,17 @@
+
+Auction System
+Functionality and Behavior
+Auctioneer controls the progress of the entire auction
+For every item, there will be a 2 minute timer to bid. This time cannot be extended or shortened. The last minute will be announced second by second. 
+For every item, bidders who do not have the sufficient funds to pay for the item cannot participate in the round. 
+Multiple bidders can match a price and the winner will be chosen via an epic battle of rock paper scissors :)
+User Interaction
+Selling
+Sellers can list an item on the platform and indicate a price. 
+
+Bidding
+Start condition:
+Bidders must have the equivalent of 10 USD to enter. 
+End condition: 
+A smart contract is established when a bidder commits the purchase of the auction item. 
+The smart contract will automatically execute at the end of the auction; the agreed amount will be deducted from the bidder’s wallet and transferred into the payee’s wallet.  
