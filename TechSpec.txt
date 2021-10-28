@@ -6,9 +6,8 @@ Auction Class
 - Data structure of previous bids
 - Highest bidder variable
 bid method(walletAddress, amount)
-	- checks that wallet has enough in account
-	- checks that auction is not expired
-	- amount must be >= highest bidder
+	- adds bid to data structure of bids
+	- updates highest bidder
 randomWinner method(previousBids)
 	- Randomly selects from all of those who matched the highest bidder
 	- Smart contract is written, 100% of price deducted from buyer, 95% transferred to seller, 5% to platform
@@ -24,6 +23,15 @@ ObjectBeingListed Class
 
 
 User Class
+- Username 
+- Password
+- Array of previous bids on auctions
+- Array of NFTs listed
 - Wallet Address
 list method(Object, start time)
 	- Creates Auction Class with Object
+bid method(Auction, amount)
+	- checks that wallet has enough in account
+	- checks that auction is not expired
+	- amount must be >= highest bidder
+	- calls bid method of Auction class
