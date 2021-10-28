@@ -1,0 +1,32 @@
+
+Auction System
+
+Functionality and Behavior
+
+Auction Class
+- Start block
+- Block 5 mins later
+- Object being auctioned
+- Data structure of previous bids
+- Highest bidder variable
+bid method(walletAddress, amount)
+	- checks that wallet has enough in account
+	- amount must be >= highest bidder
+randomWinner method(previousBids)
+	- Randomly selects from all of those who matched the highest bidder
+	- Smart contract is written, 100% of price deducted from buyer, 95% transferred to seller, 5% to platform
+
+Object Class
+- Name
+- Image
+- Description
+- Start Price
+- Buy Now Price
+
+User Interaction
+
+User Class
+- Wallet Address
+
+list method(Object)
+	- Starts Auction with Object
