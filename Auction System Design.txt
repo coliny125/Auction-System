@@ -1,13 +1,16 @@
 
 Auction System
+
 Functionality and Behavior
 Auctioneer controls the progress of the entire auction
-For every item, there will be a 2 minute timer to bid. This time cannot be extended or shortened. The last minute will be announced second by second. 
+For every item, there will be a 5 minute time limit to bid. This time cannot be extended or shortened. The last minute will be announced second by second. 
 For every item, bidders who do not have the sufficient funds to pay for the item cannot participate in the round. 
 Multiple bidders can match a price and the winner will be chosen via an epic battle of rock paper scissors :)
+
 User Interaction
 Selling
 Sellers can list an item on the platform and indicate a price. 
+The platform takes a 5% cut from the final sale for using the platform. 
 
 Bidding
 Start condition:
