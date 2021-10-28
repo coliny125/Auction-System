@@ -2,14 +2,16 @@
 Auction System
 
 Functionality and Behavior
-Auctioneer controls the progress of the entire auction
+An electronic (or human) Auctioneer controls the progress of the entire auction
 For every item, there will be a 5 minute time limit to bid. This time cannot be extended or shortened. The last minute will be announced second by second. 
+The Auctioneer has the authority to ban sellers or kick buyers. 
 For every item, bidders who do not have the sufficient funds to pay for the item cannot participate in the round. 
 Multiple bidders can match a price and the winner will be chosen via an epic battle of rock paper scissors :)
+Buy it now price - higher than start bidding price but for buyers who REALLY want the item, they can directly purchase it. 
 
 User Interaction
 Selling
-Sellers can list an item on the platform and indicate a price. 
+Sellers can list an item on the platform and indicate a base price as well as a Buy it now price. 
 The platform takes a 5% cut from the final sale for using the platform. 
 
 Bidding
