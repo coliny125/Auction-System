@@ -7,10 +7,13 @@ Auction Class
 - Highest bidder variable
 bid method(walletAddress, amount)
 	- adds bid to data structure of bids
+	- takes money out of bidder's account and moves into pool of all bids
 	- updates highest bidder
+	- returns money to those whose bid was surpassed
 randomWinner method(previousBids)
 	- Randomly selects from all of those who matched the highest bidder
 	- Smart contract is written, 100% of price deducted from buyer, 95% transferred to seller, 5% to platform
+	- money returned to those who did not win
 	- Deletes Auction Class after complete
 
 ObjectBeingListed Class
